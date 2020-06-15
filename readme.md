@@ -72,11 +72,13 @@ Start working on files
 	-xxx-router-js
 
 Root directory
+
 - Add index.js file
 - In index.js add
 const server = require('./server.js');
 
 const PORT = process.env.PORT || 5000;
+
 server.listen(PORT, () => {
   console.log(`\n=== Server listening on port ${PORT} ===\n`);
 });

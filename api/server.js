@@ -8,6 +8,7 @@ server.use(helmet());
 server.use(cors());
 server.use(express.json());
 
+// add other routes here, with middleware
 
 
 
