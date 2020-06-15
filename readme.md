@@ -105,13 +105,11 @@ server.use(express.json());
 server.use('/api/auth', loginRouter);
 
 server.use('/api/users', usersRouter);
-server.use('/api/students', studentsRouter);
-server.use('/api/projects', projectRouter);
 
-server.use('/docs', express.static('./docs'));
+
 
 server.get('/', (req, res) => {
-    res.send("Everythings clear Sir'");
+    res.send("Server is running");
 });
 
 module.exports = server;
