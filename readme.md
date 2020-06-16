@@ -4,7 +4,7 @@ Starting backend from scratch
 -npm init -y
 - Git init 
 
-npm i nodemon express knex sqlite3 cors helmet pg morgan bcryptjs jsonwebtoken
+npm i nodemon express knex sqlite3 cors helmet pg morgan bcryptjs jsonwebtoken dotenv
 
 Go into package.json and add start to scripts 
 	"start": "nodemon index.js"
