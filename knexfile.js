@@ -20,6 +20,7 @@ module.exports = {
 	
 		development: {
 			client: 'pg',
+			
 			connection: {
 				database: database_name,
 				user: database_user,
